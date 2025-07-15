@@ -149,6 +149,10 @@ body::before {
     animation: fadeIn 0.8s ease-out forwards;
 }
 
+#result.visible * {
+    visibility: visible;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

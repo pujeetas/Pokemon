@@ -12,32 +12,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <div id="body_div">
-      <div id="header">
-        <img id="logo" src="/img/logo.png" alt="logo" />
-        <h1>Get Your Pokemon Info!</h1>
-      </div>
-      <div id="input_field">
-        <input type="text" id="pokemon_name" placeholder="Enter Pokémon name" />
-      </div>
-      <div id="spin">
-        <span class="dot"><img src="/img/loading_img.png" /></span>
-        <span class="dot"><img src="/img/loading_img.png" /></span>
-        <span class="dot"><img src="/img/loading_img.png" /></span>
-      </div>
-      <div id="button">
-        <input
-          type="image"
-          src="/img/btn.png"
-          alt="button image"
-          id="btn"
-          onclick="getPokemonName()"
-        />
-      </div>
-      <div id="result"></div>
-      <div id="error"></div>
-    </div>
-    <script src="script.js"></script>
+  <body id="root">
+    <script src="app.js" type="module"></script>
   </body>
 </html>
